@@ -11,13 +11,14 @@ int Fib( int n)           // recursion to declare F(n) as the nth term of a fibo
   
   int main()
   {
-  int n;                               // to take the input from the user
- { printf("enter a number :");
+  int n;                               // to take the input from the userṇ
+  printf("enter a number :");
   scanf("%d", &n);
  
   
   printf("the nth term of a fibonacci series is : %d" , Fib(n));
   
-  return 0;}
+  return 0;
   
   }
+  

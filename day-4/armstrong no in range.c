@@ -5,8 +5,10 @@
 int main()
 {
     int start, end, i, r , count, arm, var ;   // start and end for range numbers
-    printf("Enter the range (start and end): ");
-    scanf("%d %d", &start, &end);
+    printf("Enter the range start : ");
+    scanf("%d ", &start);
+    printf("Enter the range end : ");
+    scanf("%d ", &end);
 
     printf("Armstrong numbers in the range %d to %d are:\n", start, end); 
 
