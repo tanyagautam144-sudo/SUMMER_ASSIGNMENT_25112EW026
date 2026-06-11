@@ -13,7 +13,7 @@ int main()
         printf(" ");
     }
     char ch = 'A' ;
-    for(j = 1 ; j <=i; j++)         // prints the numbers in form of triangle
+    for(j = 1 ; j <=i; j++)         // prints the character in form of triangle
     {
         printf("%c", ch);
         ch++;
