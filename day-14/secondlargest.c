@@ -12,16 +12,16 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int largest = arr[0];
+    int largest = arr[0];    // Assume first element is both largest and second largest initially
     int secondlargest = arr[0];
-    for(int i = 1; i < n; i++)
+    for(int i = 1; i < n; i++)    //going through the array
      {
-        if(arr[i] > largest)
+        if(arr[i] > largest)   //if current element is greater than largest
          {
-            secondlargest = largest;
-            largest = arr[i];
+            secondlargest = largest; //old largest number becomes second largest
+            largest = arr[i]; //update the largest  number
         }
-        else if(arr[i] > secondlargest && arr[i] != largest)
+        else if(arr[i] > secondlargest && arr[i] != largest)    
          {
             secondlargest = arr[i];
         }
