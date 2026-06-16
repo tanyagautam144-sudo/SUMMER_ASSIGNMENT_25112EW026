@@ -25,7 +25,7 @@ int main() {
     // Place the first element at the end
     arr[n - 1] = first;
 
-    // Display the rotated array
+    // Display the array
     printf("Array after left rotation:\n");
     for(i = 0; i < n; i++) {
         printf("%d ", arr[i]);
