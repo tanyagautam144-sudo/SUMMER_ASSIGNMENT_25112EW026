@@ -7,7 +7,7 @@ int main() {
     int n1 = 4, n2 = 4;
 
     printf("Intersection: ");
-
+ 
     for (int i = 0; i < n1; i++) {
         for (int j = 0; j < n2; j++) {
             if (arr1[i] == arr2[j]) {
