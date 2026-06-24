@@ -4,23 +4,16 @@
 
 int main() {
     char str[100];
-    int i, len;
+    int i, length;
 
     printf("Enter a string: ");
-    fgets(str, sizeof(str), stdin);
+    scanf("%s", str);
 
-    len = strlen(str);                // Find the length of the string
-    
+    length = strlen(str);
 
-    // Remove newline character if present
-    if (str[len - 1] == '\n') {
-        str[len - 1] = '\0';
-        len--;
-    }
+    printf("Reversed string: ");
 
-    printf("Reversed string: ");           // Print each character in reverse order
-
-    for (i = len - 1; i >= 0; i--) {
+    for(i = length - 1; i >= 0; i--) {
         printf("%c", str[i]);
     }
 
