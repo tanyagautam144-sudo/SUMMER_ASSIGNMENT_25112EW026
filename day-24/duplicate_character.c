@@ -26,9 +26,6 @@ int main()
             {
                 printf("%c ", str[i]);
 
-                // Mark the duplicate character so it is not printed again
-                str[j] = '*';
-
                 break;
             }
         }
